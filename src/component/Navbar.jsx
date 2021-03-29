@@ -261,94 +261,139 @@ const Navbar = () => {
                 {/* <!-- Menu--> */}
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
-                        <ul>
-                           <li>
-                                <a href="index-1.html">Home 1</a>
-                            </li>
-                            <li>
-                                <a href="index-2.html">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="index-3.html">Home 3</a>
-                            </li>
-                            <li>
-                                <a href="index-4.html">Home 4</a>
-                            </li>
-                            <li>
-                                <a href="index-5.html">Home 5</a>
-                            </li>
-                            <li>
-                                <a href="index-6.html">Home 6</a>
-                            </li>
-                        </ul>
+                        <a href="">Home</a>
+                        
                     </li>
 
-                    <li>
-                        <a href="#">World Cup</a>
-                        <ul>
-                            <li>
-                               <a href="#">World Cup</a>
-                                <ul>
-                                    <li><a href="table-point.html">Point Table</a></li>
-                                    <li><a href="fixtures.html">Fixtures</a></li>
-                                    <li><a href="groups.html">Groups</a></li>
-                                    <li><a href="news-left-sidebar.html">News</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </li>
+                    <li class="">
+                            <a href="#">About</a>
+                            {/* <ul class="sub-current">
+                                <li>
+                                    <a href="teams.html">Teams List</a>
+                                </li>
+                                <li>
+                                    <a href="single-team.html">Single Team</a>
+                                </li>
+                            </ul> */}
+                        </li>
 
-                            <li><a href="teams.html">Teams List</a></li>
-                            <li><a href="players.html">Players List</a></li>
-                            <li><a href="results.html">Results List</a></li>
-                        </ul>
-                    </li>
+                        <li>
+                            <a href="#">Events</a>
+                            <div class="sf-mega">
+                                <div class="row">
+                                     <div class="col-md-3">
+                                        <h5><i class="fa fa-trophy" aria-hidden="true"></i>Sporty Scouting Cup</h5>
+                                        <ul>
+                                            <li><a href="table-point.html">Point Table</a></li>
+                                            <li><a href="fixtures.html">Fixtures</a></li>
+                                            <li><a href="groups.html">Groups</a></li>
+                                            <li><a href="news-left-sidebar.html">News</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
 
-                    <li>
-                        <a href="teams.html">Teams</a>
-                        <ul>
-                            <li>
-                                <a href="teams.html">Teams List</a>
-                            </li>
-                            <li>
-                                <a href="single-team.html">Single Team</a>
-                            </li>
-                        </ul>
-                    </li>
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-users" aria-hidden="true"></i> Teams List</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/1.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="teams.html">+</a></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-futbol-o" aria-hidden="true"></i> Players List</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/2.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="players.html">+</a></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-gamepad" aria-hidden="true"></i> Results Info</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/3.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="results.html">+</a></div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
 
                     <li>
                         <a href="players.html">Players</a>
-                        <ul>
+                        {/* <ul>
                             <li>
                                 <a href="players.html">Players List</a>
                             </li>
                             <li>
                                 <a href="single-player.html">Single Player</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
 
+
                     <li>
+                            <a href="#">Gallery</a>
+                            <div class="sf-mega">
+                                <div class="row">
+                                     <div class="col-md-3">
+                                        <h5><i class="fa fa-trophy" aria-hidden="true"></i>Sporty Scouting Cup</h5>
+                                        <ul>
+                                            <li><a href="table-point.html">Photos</a></li>
+                                            <li><a href="fixtures.html"> Video</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-camera" aria-hidden="true"></i> Photos</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/1.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="teams.html">View</a></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/2.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="players.html">View</a></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                      <h5><i class="fa fa-gamepad" aria-hidden="true"></i> Live Events</h5>
+                                      <div class="img-hover">
+                                         <img src="img/blog/3.jpg" alt="" class="img-responsive"/>
+                                         <div class="overlay"><a href="results.html">View</a></div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    {/* <li>
                         <a href="fixtures.html">Fixtures</a>
-                    </li>
+                    </li> */}
 
                     <li>
-                        <a href="results.html">Results</a>
-                        <ul>
+                        <a href="">News</a>
+                        {/* <ul>
                             <li>
                                 <a href="results.html">Results List</a>
                             </li>
                             <li>
                                 <a href="single-result.html">Single Result</a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
 
-                    <li>
+                    {/* <li>
                         <a href="table-point.html">Point Table</a>
-                    </li>
+                    </li> */}
 
-                    <li>
+                    {/* <li>
                         <a href="groups.html">Groups</a>
                     </li>
 
@@ -410,10 +455,10 @@ const Navbar = () => {
                                 </ul>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
 
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="">Contact</a>
                     </li>
                 </ul>
                 {/* <!-- End Menu--> */}
